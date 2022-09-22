@@ -1,0 +1,77 @@
+<html>
+
+<head>
+
+<script>
+
+function sum()
+{
+let a=document.getElementById("t1").value;   
+let b=document.getElementById("t2").value;
+let c=document.getElementById("t3").value;
+let d=parseInt(a)+parseInt(b)-parseInt(c);
+document.getElementById("t4").innerHTML=d;  
+}
+
+
+
+
+
+
+</script>
+
+
+
+
+
+
+
+<style>
+
+.d1
+{
+
+border:2px black;
+width:300px;
+padding:50px;
+margin-left:200px;
+margin-top:100px;
+background-color:skyblue;
+color:black;
+}
+
+
+
+
+</style>
+
+
+
+
+</head>
+
+<div class="d1">
+<p><h4 align="center">Salary  </h4>
+<p>enter emp id </p>
+<input  type="text"><br>
+<p>enter emp name      </p>
+<input  type="text" ><br>
+<p>basic      </p>
+<input id="t1" type="text" ><br>
+<p>hra      </p>
+<input id="t2" type="text" ><br>
+<p>pf     </p>
+<input id="t3" type="text" ><br>
+<h1> Gross Salary </h1>
+<p id="t4"> </p>
+<button onclick="sum()">Add</button><br><br>
+
+</div>
+
+
+</body >
+
+
+
+
+</html>
