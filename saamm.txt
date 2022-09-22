@@ -1,0 +1,49 @@
+<html>
+
+<body bgcolor="">
+<center>
+<h1>Registration Form</h1>
+<table align="center">
+
+<tr>
+<td><p>Name: </td>
+<td><input type="text" placeholder="your name"></p></td>
+</tr>
+<tr>
+<td><p>Email: </td>
+<td><input type="text" placeholder="your mail"></p></td>
+</tr>
+<td><p>Password: </td>
+<td><input type="text" placeholder=""></p></td>
+</tr>
+<td><p>Phone Number: </td>
+<td><input type="text" placeholder=""></p></td>
+</tr>
+<td><p>Gender: </td>
+<td><input type="radio" name="gen">Male
+<input type="radio" name="gen">Female
+<input type="radio" name="gen">Others</p></td>
+</tr>
+
+<td><p>Language: </td>
+<td><select><option> select language </option>
+<option> Telugu </option>
+<option> Tamil </option>
+<option> Kannada </option>
+<option> Hindi </option>
+<option> English </option></td>
+</select>
+</p></td>
+</tr>
+<td><p>Zip Code: </td>
+<td><input type="text" "></p></td>
+</tr>
+<td><p>About: </td>
+<td><textarea rows="3" cols="6"> </textarea></p></td>
+</tr>
+<td></td> <td><button>Register</button>
+</td>
+</tr>
+
+</body>
+</html>

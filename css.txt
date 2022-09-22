@@ -1,0 +1,37 @@
+<html>
+<style>
+div
+{
+border:2px ;
+width:500px;
+padding:25px;
+margin-left:200px;
+margin-top:200px;
+background-color:violet;
+}
+p
+{
+color:sky blue;
+}
+</style>
+
+
+<body>
+background-color:purple;
+</body>
+
+<div>
+
+<h1>Login Form</h1>
+<br>
+Email or Phone:
+<input type="text"
+<br>
+ Password:
+<input type="text"
+<br>
+<p>forgot password ?</p>
+<br>
+<button>LOGIN</button>
+
+</div>
